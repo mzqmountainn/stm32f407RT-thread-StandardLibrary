@@ -1,5 +1,5 @@
 .\objects\main.o: ..\..\app\main.c
-.\objects\main.o: ..\..\board\board.h
+.\objects\main.o: ..\..\bsp\uart\bsp_uart.h
 .\objects\main.o: ..\..\libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 .\objects\main.o: ..\..\libraries\CMSIS\Include\core_cm4.h
 .\objects\main.o: D:\software\keilc51\ARM\ARMCC\Bin\..\include\stdint.h
@@ -35,7 +35,6 @@
 .\objects\main.o: ..\..\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h
 .\objects\main.o: ..\..\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h
 .\objects\main.o: ..\..\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
-.\objects\main.o: ..\..\bsp\uart\bsp_uart.h
 .\objects\main.o: D:\software\keilc51\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: D:\software\keilc51\ARM\PACK\RealThread\RT-Thread\3.1.5\include\rtthread.h
 .\objects\main.o: .\RTE\RTOS\rtconfig.h

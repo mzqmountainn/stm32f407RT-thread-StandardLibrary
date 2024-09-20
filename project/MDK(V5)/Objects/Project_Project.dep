@@ -35,8 +35,8 @@ I (..\..\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x61F25A30)
 I (..\..\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x61F25A32)
 I (..\..\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x61F25A32)
 I (..\..\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x61F25A38)
-F (..\..\app\main.c)(0x66EC4A14)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\app -I ..\..\board -I ..\..\bsp -I ..\..\libraries\CMSIS\Include -I ..\..\libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\module -I ..\..\bsp\uart-I.\RTE\RTOS-I.\RTE\_Project-ID:\software\keilc51\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\software\keilc51\ARM\PACK\RealThread\RT-Thread\3.1.5\include-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (..\..\board\board.h)(0x65EEB682)
+F (..\..\app\main.c)(0x66ED5248)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\app -I ..\..\board -I ..\..\bsp -I ..\..\libraries\CMSIS\Include -I ..\..\libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\module -I ..\..\bsp\uart-I.\RTE\RTOS-I.\RTE\_Project-ID:\software\keilc51\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\software\keilc51\ARM\PACK\RealThread\RT-Thread\3.1.5\include-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\..\bsp\uart\bsp_uart.h)(0x65EEB676)
 I (..\..\libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x65E824C8)
 I (..\..\libraries\CMSIS\Include\core_cm4.h)(0x61F12858)
 I (D:\software\keilc51\ARM\ARMCC\include\stdint.h)(0x588B8344)
@@ -71,7 +71,6 @@ I (..\..\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x61F25A30)
 I (..\..\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x61F25A32)
 I (..\..\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x61F25A32)
 I (..\..\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x61F25A38)
-I (..\..\bsp\uart\bsp_uart.h)(0x65EEB676)
 I (D:\software\keilc51\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (D:\software\keilc51\ARM\PACK\RealThread\RT-Thread\3.1.5\include\rtthread.h)(0x66EC2FBD)
 I (.\RTE\RTOS\rtconfig.h)(0x66EC2FBD)

@@ -11,7 +11,6 @@
  * Date           Author       Notes
  * 2024-03-07     LCKFB-LP    first version
  */
-#include "board.h"
 #include "bsp_uart.h"
 #include <stdio.h>
 #include <rtthread.h>
@@ -22,7 +21,6 @@ static rt_thread_t thread01 = RT_NULL;
 int main(void)
 {
 	
-	board_init();
 	
 	uart1_init(115200U);
 
@@ -44,10 +42,8 @@ void thread01_entry(void* parameter){
 	while(1){
 		GPIO_SetBits(GPIOB, GPIO_Pin_2);
 		rt_thread_delay(1000);
-		//delay_ms(1000);
 		GPIO_ResetBits(GPIOB, GPIO_Pin_2);
 		rt_thread_delay(1000);
-		//delay_ms(1000);
 	}
 }
 //int main(void)
